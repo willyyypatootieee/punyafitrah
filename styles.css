@@ -36,13 +36,13 @@ body {
     height: 120px;
     border-radius: 50%;
     border: 5px solid #007bff;
-    object-fit: cover; /* Gunakan contain agar gambar tidak terpotong */
+    object-fit: cover; 
 }
 
 h2 {
     font-size: 1.8rem;
     color: #333;
-    text-align: center; /* Ubah ke center agar lebih menarik */
+    text-align: center; 
     margin-bottom: 10px;
 }
 
@@ -105,7 +105,6 @@ p {
     text-decoration: underline;
 }
 
-/* Additional Styling for Interactive Elements */
 label {
     display: block;
     margin-top: 20px;
@@ -117,8 +116,33 @@ select, input[type="range"], button {
     margin-bottom: 15px;
 }
 
-/* Adjust button spacing */
 button {
     margin-right: 10px;
     padding: 8px 16px;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif; 
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .container {
+    background-color: #444; 
+}
+
+body.dark-mode .section {
+    background-color: #555; 
 }
