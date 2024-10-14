@@ -146,3 +146,58 @@ body.dark-mode .container {
 body.dark-mode .section {
     background-color: #555; 
 }
+
+/* Navbar styles */
+nav {
+    border-radius: 30px;
+    background-color: #333;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* To-Do List Styles */
+#todo-list {
+    margin-top: 2rem;
+}
+
+#task-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#task-list li .delete-task {
+    margin-left: 1rem;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
